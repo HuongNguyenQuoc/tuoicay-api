@@ -1,0 +1,28 @@
+# ---- Bí mật: không bao giờ commit ----
+.env
+.env.*
+!.env.example
+
+# ---- Repo công khai: không commit ----
+*.zip
+*.jsonl
+
+# ---- Rác của Windows / macOS ----
+*:Zone.Identifier
+Thumbs.db
+.DS_Store
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ---- Ảnh người dùng tải lên và ảnh mẫu ----
+storage/
+*.jpg
+*.jpeg
+*.png
+*.webp
